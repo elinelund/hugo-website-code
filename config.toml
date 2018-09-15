@@ -22,7 +22,7 @@ title = "Eline Lund"
   # services = "Services"
   # team = "The Team"
   # Include logo instead if HOME:
-  logo = "path/to/logo"
+  logo = "/favicon.ico"
 
 # Work section
 [params.work]
