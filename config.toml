@@ -1,0 +1,183 @@
+# Main config file for icon theme.
+baseURL = "https://elinelund.github.io"
+languageCode = "en-US"
+title = "Eline Lund"
+
+# Metadata
+[params]
+  author = "Eline Lund"
+  description = "On a mission to empower kids as change agents through school transformation and 21st century skills. "
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/children.JPG"
+  title = "Empower people. Transform education. Change the world."
+  # description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+
+# Navigation section
+[params.nav]
+  work = "My Work"
+  about = "About"
+  contact = "Get In Touch"
+  # services = "Services"
+  # team = "The Team"
+  # Include logo instead if HOME:
+  logo = "path/to/logo"
+
+# Work section
+[params.work]
+  enable = true
+  title = "My Work"
+  description = ""
+
+  [[params.work.item]]
+    name = "Colegios Fram"
+    position = "Project"
+    description = "We started with a pilot in san cristóbal. Thanks to the learning we take, and with the company of our children, project fram raises its sails, setting course in a greater social impact. Soon, we will share our journey."  img = "images/fram.png"
+    link = "https://colegiosfram.org/"
+    facebook = "https://www.facebook.com/colegiosfram/"
+    twitter = "https://twitter.com/ColegiosFram1?"
+    instagram = "https://www.instagram.com/colegiosfram/"
+
+  [[params.work.item]]
+    name = "Daukaia"
+    position = "NGO"
+    description = "We’re working with 45 children and their families, and training over 50 teachers at local schools for more collective impact. For more information and details please go to the website and facebook page to read more."
+    img = "images/daukaia.jpg"
+    link = "http://www.daukaia.org/"
+    facebook = "https://www.facebook.com/Daukaia/"
+    twitter = "https://www.facebook.com/Daukaia/"
+    instagram = "https://www.instagram.com/daukaia/"
+
+  [[params.work.item]]
+    name = "21st century skills"
+    position = "Skills"
+    description = "Critical thinking and problem solving, for example, have been components of human progress throughout history, from the development of early tools, to agricultural advancements and to the invention of vaccines."
+    img = "images/naturaphotos-lr-93_bn_a.jpg"
+    link = ""
+    facebook = "#"
+    twitter = "#"
+    instagram = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Marketing"
+    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Resources"
+    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Strategy"
+    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# About section
+[params.about]
+  enable = true
+  video = true
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "About me"
+  description = "I am a project coordinator, workshop facilitator and co-founder of two NGOs that empower kids as change agents in their communities through education, I’m lucky to work with those who will create a better world and solve the major challenges of today and tomorrow. I’m eager to take part in an engaged community and generate a global movement of school transformation for social impact."
+  img = "images/eline.jpg"
+  
+# Work section
+[params.old_work]
+  enable = true
+
+  [[params.old_work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.old_work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.old_work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.old_work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.old_work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.old_work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.old_work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.old_work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Feel free to get in touch with me to discuss or share your experience!"
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = ""
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  copyright = "<small>&copy; 2018 Eline Lund. All Rights Reserved.</small>"
+  twitter = "https://twitter.com/Eline_BL?lang=en"
+  linkedin = "https://www.linkedin.com/in/elinelund/"
+  credits = "<small class='credits'>Page built by <a class='footer' href='http://samheyman.com/' target='_blank' >Sam Heyman</a> using <a class='footer' href='https://github.com/SteveLane/hugo-icon' target='_blank'>Hugo</a>.</small>"
+  

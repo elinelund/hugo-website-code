@@ -1,0 +1,18 @@
+<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				{{ with .Site.Params.footer }}
+				<div class="col-md-6">
+					{{ .copyright | markdownify }}
+					<br>
+					<a href="{{ .twitter }}" target="_blank"><i class="icon-twitter"></i></a>
+					<a href="{{ .linkedin }}" target="_blank"><i class="icon-linkedin"></i></a>
+				</div>
+				<div class="col-md-6 text-right">
+						{{ .credits | markdownify }}
+				</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+	

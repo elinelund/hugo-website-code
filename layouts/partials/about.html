@@ -1,0 +1,25 @@
+<div id="fh5co-about" data-section="about">
+  {{ with .Site.Params.about }}
+  {{ if .video }}
+  <div class="fh5co-video"><a href="{{ with .vidlink }}{{ . }}{{ end }}" class="popup-vimeo"><i class="icon-play2"></i></a> <span>Watch video</span></div>
+  {{ end }}
+  <div class="container">
+    <div class="col-md-6 text-center fh5co-heading">
+      <h2>{{ .title | markdownify }}</h2>
+      <p>{{ .description | markdownify }}</p>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <img class="round-frame" src="{{ .img | absURL }}" alt="Eline Lund"/>
+    </div>
+<hr/>
+    <div class="col-md-6 col-md-offset-3 fh5co-heading text-center twitter-feed-div">
+      <h2>What I tweet about</h2>
+      <div class="twitter-feed">
+          <a class="twitter-timeline" href="https://twitter.com/Eline_BL?ref_src=twsrc%5Etfw">Tweets by Eline_BL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+    
+  </div>
+  {{ end }}
+</div> <!-- END fh5co-services -->
